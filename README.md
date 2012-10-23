@@ -31,7 +31,7 @@ var options = {
 var defaults = {
     from: "no-reply@nothere.org",
     cc: "admin@nothere.org",
-    subect: "Is this even a good idea?"
+    subject: "Is this even a good idea?"
 }
 
 app.configure(function(){
@@ -45,7 +45,7 @@ The arguments to the `.init()` method are similar to those accepted by [nodemail
 
 express-airmail attaches itself to the express response object.  The `.send()` method is very similar to the `res.send()` method provided by express itself.
 
-The first argument is the template you want to render to HTML. The second is the object containing local variables you want to pass to the template rendering enging.  The third is a set of message options for the email you want to send ([see here for field details](https://github.com/andris9/Nodemailer#e-mail-message-fields)).  The last is the optional callback that returns the `.sendMail()` results from nodemailer.
+The first argument is the template you want to render to HTML. The second is the object containing local variables you want to pass to the template rendering engine.  The third is a set of message options for the email you want to send ([see here for field details](https://github.com/andris9/Nodemailer#e-mail-message-fields)).  The last is the optional callback that returns the `.sendMail()` results from nodemailer.
 
 ```javascript
 app.get('/testmail', function(req, res) {
