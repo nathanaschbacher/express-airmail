@@ -1,6 +1,8 @@
 ## Overview
 
-Express Airmail is an [Express](https://github.com/visionmedia/express)/[Connect](https://github.com/senchalabs/connect) middleware for [nodemailer](https://github.com/andris9/Nodemailer).
+Express Airmail is an [Express](https://github.com/visionmedia/express)/[Connect](https://github.com/senchalabs/connect) middleware for [nodemailer](https://github.com/andris9/Nodemailer).  
+
+This middleware was developed to make it easy to use your app's existing view engine to render your templates (jade, ejs, hbs, etc.) to HTML and send them as plain-text backed HTML emails from within your express/connect app.
 
 ## Installation
 
