@@ -1,8 +1,8 @@
 {
     "name": "express-airmail",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Express Airmail is an Express/Connect middleware for nodemailer.",
-    "author": "Nathan Aschbacher <nathan@coradine.com>",
+    "author": "Nathan Aschbacher <nathan.aschbacher@gmail.com>",
     "contributors": [ 
         { "name": "Nathan Aschbacher", "email": "nathan.aschbacher@gmail.com" },
         { "name": "Ryan C. Payne", "email": "ryan@coradine.com" }
